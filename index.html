@@ -109,6 +109,36 @@ h1 em{font-style:normal;color:var(--green)}
 @media(max-width:820px){.shell{padding:20px}.main{padding:33px 0}.metrics{gap:10px}.metric{padding:18px 8px}.metric strong{font-size:14px}.metric p{font-size:12px}.footer{flex-direction:column;align-items:flex-start;gap:8px}.footer p:last-child{text-align:left}}
 @media(max-width:600px){.wordmark{font-size:15px}.status{font-size:11px}.main{gap:19px;padding:30px 0}h1{font-size:37px}.lead{font-size:14px}.metrics{grid-template-columns:1fr}.metric{min-height:0;padding:18px 12px}.number{font-size:50px}.metric:nth-child(3) .number{font-size:46px}.closer{font-size:17px}.included{margin:-4px 0}.cta{width:100%}.actions{width:100%}}
 @media(max-height:669px) and (min-width:821px){.shell{min-height:640px}}
+
+  
+@media (max-width: 600px) {
+  footer,
+  .footer,
+  .footer-inner {
+    text-align: center;
+  }
+
+  footer .footer-left,
+  footer .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.legal-notice {
+  text-align: center;
+  color: #6e6e73;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 12px auto;
+  max-width: 800px;
+}
+
+.legal-notice span {
+  display: block;
+}
+
+  
 </style>
 </head>
 <body>
@@ -131,7 +161,7 @@ h1 em{font-style:normal;color:var(--green)}
 
 <header class="topbar">
   <div class="wordmark">
-    portlandlaptoprepair<span>.com</span>
+    PortlandLaptopRepair<span>.com</span>
   </div>
 
   <div class="header-contact">
@@ -200,7 +230,13 @@ h1 em{font-style:normal;color:var(--green)}
   </a>
 </div>
 
-<p class="footnote">Independent domain sale listing. Not affiliated with any laptop repair business. Redirects do not guarantee website visits or new customers. Domain renewals and third-party service fees, if any, are separate.</p>
+
+<p class="legal-notice">
+  <span>Independent domain sale listing.</span>
+  <span>Not affiliated with any laptop repair business.</span>
+  <span>Redirects do not guarantee website visits or new customers.</span>
+  <span>Domain renewals and third-party service fees, if any, are separate.</span>
+</p>
 </main>
 <footer class="footer"><p>© 2026 · PortlandLaptopRepair.com</p><p>Independent domain listing</p></footer>
 </div>
